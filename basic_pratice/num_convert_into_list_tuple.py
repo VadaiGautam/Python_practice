@@ -11,3 +11,5 @@ tuplee = tuple(lisst)
 
 print(f"list : {lisst}")
 
+print(f"Tuple : {tuplee}")
+
