@@ -6,7 +6,8 @@ Sample Output : The examination will start from : 11 / 12 / 2014'''
 exam_st_date = (11, 12, 2014)
 
 
+# The placeholders %i are used to format the integers.
+# The placeholders %d are used to format the integers.
+# The placeholders %s are used to format the strings.
 
-exam_date =exam_st_date.replace(",","/")
-
-print(exam_date)
+print("The examination will start from : %i / %i / %i " %exam_st_date)
